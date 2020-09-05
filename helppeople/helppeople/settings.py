@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'helppeople.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'helppeople',
+        'USER': 'postgres',
+        'PASSWORD': '1234',
+        'HOST' : 'localhost'
+
     }
 }
 
