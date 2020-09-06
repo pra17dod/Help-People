@@ -4,7 +4,9 @@ from django.http import HttpResponse
 # Create your views here.
 
 def posts(request):
-    return HttpResponse('<h1>Posts Home</h1>')
+    return render(request, 'posts.html')
 
-def about(request):
-    return HttpResponse('<h1>Posts About</h1>')
+def signup(request):
+    return render(request, 'signup.html')
+def signin(request):
+    return render(request, 'signin.html')        
