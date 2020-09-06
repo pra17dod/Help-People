@@ -33,7 +33,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'home.apps.HomeConfig',
-    'posts.apps.PostsConfig',
+    'users.apps.UsersConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -81,12 +81,13 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'helppeople',
-        'USER': 'postgres',
+        'USER' : 'postgres',
         'PASSWORD': '1234',
-        'HOST' : 'localhost'
+        'HOST': 'localhost'
 
     }
 }
+
 
 
 # Password validation
