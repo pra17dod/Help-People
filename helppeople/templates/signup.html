@@ -25,12 +25,23 @@
 </head>
 
 <body>
+    {% csrf_token %}
     <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
         <div class="wrapper wrapper--w680">
+            <div class="col-md-8">
+                {% if messages %}
+                {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}">
+                  <center><h2>{{ message }}</h2></center>
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
             <div class="card card-4">
                 <div class="card-body">
                     <h2 class="title">Sign Up!</h2>
                     <form method="POST">
+                        {% csrf_token %}
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
@@ -67,17 +78,17 @@
                              <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Password</label>
-                                    <input class="input--style-4" type="text" name="password">
+                                    <input class="input--style-4" type="text" name="password1">
                                 </div>
                             </div>
                              <div class="col-2">
                                 <div class="input-group">
                                     <label class="label">Confirm Password</label>
-                                    <input class="input--style-4" type="text" name="password">
+                                    <input class="input--style-4" type="text" name="password2">
                                 </div>
                             </div>                
                         </div>
-                        <div class="input-group">
+                        {% comment %} <div class="input-group">
                             <label class="label">Register</label>
                             <div class="rs-select2 js-select-simple select--no-search">
                                 <select name="subject">
@@ -87,7 +98,7 @@
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
-                        </div>
+                        </div> {% endcomment %}
                         <div class="p-t-15">
                             <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
                         </div>
