@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+helppeople/my_secrets/__pycache__/secrets.cpython-38.pyc

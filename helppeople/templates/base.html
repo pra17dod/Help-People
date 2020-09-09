@@ -18,6 +18,39 @@
         <!-- main css -->
         <link rel="stylesheet" href="{% static 'css/style.css' %}">
         <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+
+        <!--===============================================================================================-->	
+            <link rel="icon" type="image/png" href="{% static 'signin/images/icons/favicon.ico' %}"/>
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="{% static 'signin/vendor/bootstrap/css/bootstrap.min.css' %}">             
+        <!--===============================================================================================-->
+            <link rel="stylesheet" type="text/css" href="{% static 'signin/fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+        <!--===============================================================================================-->
+            <link rel="stylesheet" type="text/css" href="{% static 'signin/fonts/Linearicons-Free-v1.0.0/icon-font.min.css' %}">
+        <!--===============================================================================================-->
+            <link rel="stylesheet" type="text/css" href="{% static 'signin/vendor/animate/animate.css' %}">
+        <!--===============================================================================================-->	
+            <link rel="stylesheet" type="text/css" href="{% static 'signin/vendor/css-hamburgers/hamburgers.min.css' %}">
+        <!--===============================================================================================-->
+            <link rel="stylesheet" type="text/css" href="{% static 'signin/vendor/select2/select2.min.css' %}">
+        <!--===============================================================================================-->
+            <link rel="stylesheet" type="text/css" href="{% static 'signin/css/util.css' %}">
+            <link rel="stylesheet" type="text/css" href="{% static 'signin/css/main.css' %}">
+        <!--===============================================================================================-->  
+
+
+{% comment %} 
+        <!-- Icons font CSS-->
+        <link href="{% static 'signup/vendor/mdi-font/css/material-design-iconic-font.min.css' %}" rel="stylesheet" media="all">
+        <link href="{% static 'signup/vendor/font-awesome-4.7/css/font-awesome.min.css' %}" rel="stylesheet" media="all">
+        <!-- Font special for pages-->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+        <!-- Vendor CSS-->
+        <link href="{% static 'signup/vendor/select2/select2.min.css' %}" rel="stylesheet" media="all">
+        <link href="{% static 'signup/vendor/datepicker/daterangepicker.css' %}" rel="stylesheet" media="all"> 
+        <!-- Main CSS-->
+        <link href="{% static 'signup/css/main.css' %}" rel="stylesheet" media="all"> {% endcomment %}
     </head>
     <body>
         
@@ -34,8 +67,8 @@
 						</ul>
 					</div>
 					<div class="float-right">
-						<a class="ac_btn" href="accounts/signup">Sign Up</a>
-						<a class="dn_btn" href="accounts/signin">Sign In</a>
+						<a class="ac_btn" href="signup.html">Sign Up</a>
+						<a class="dn_btn" href="signin.html">Sign In</a>
 					</div>
            		</div>	
            	</div>	
@@ -53,23 +86,9 @@
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
 								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" href="#">About</a></li> 
-								 <li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="#">Event</a></li>
-										<li class="nav-item"><a class="nav-link" href="#">Event Details</a></li>
-									</ul>
-								</li> 
-								
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="posts/">Posts</a></li>
-									</ul>
-								</li> 
-
-								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                                <li class="nav-item active"><a class="nav-link" href="posts.html">Posts</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#">About</a></li> 								
+								<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
 								<li class="nav-item"><a href="#" class="search"><i class="lnr lnr-magnifier"></i></a></li>
