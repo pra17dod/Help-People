@@ -21,7 +21,7 @@ Author E-mail: rockybd1995@gmail.com
 
 Table of Content:
 01/ Variables
-02/ predefin
+02/ predefine
 03/ header
 04/ button
 05/ banner
@@ -494,7 +494,7 @@ button:focus {
 }
 
 .home_banner_area .banner_inner .overlay {
-    background: url(img/banner/banner2.2.jpg) no-repeat scroll center center;
+    background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
     position: absolute;
     left: 0;
     right: 0;
@@ -551,7 +551,7 @@ button:focus {
 }
 
 .blog_banner .banner_inner .overlay {
-    background: url(img/banner/banner2.1.jpg) no-repeat scroll center center;
+    background: url(../img/banner/home-banner-1.jpg) no-repeat scroll center center;
     opacity: .5;
     height: 125%;
 }
@@ -592,7 +592,7 @@ button:focus {
 }
 
 .banner_area .banner_inner .overlay {
-    background: url(img/banner/banner2.1.jpg) no-repeat scroll center center;
+    background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
     position: absolute;
     left: 0;
     right: 0;
