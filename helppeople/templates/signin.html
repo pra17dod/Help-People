@@ -1,8 +1,25 @@
 {% extends 'base.html' %} 
 {% load static %}
 {% block content %}	
+<head>
+	<title>SignIn</title>
+    <!-- accounts css -->  
+    <link rel="stylesheet" type="text/css" href="{% static 'signin/vendor/bootstrap/css/bootstrap.min.css' %}"> 
+    <link rel="stylesheet" type="text/css" href="{% static 'signin/fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'signin/fonts/Linearicons-Free-v1.0.0/icon-font.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'signin/vendor/animate/animate.css' %}">	
+    <link rel="stylesheet" type="text/css" href="{% static 'signin/vendor/css-hamburgers/hamburgers.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'signin/vendor/select2/select2.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'signin/css/util.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'signin/css/main.css' %}"> 	
 
-	<div class="limiter">
+</head>
+<body>
+
+	  <!--================Header Menu Area =================-->
+        <header class="header_area">
+        </header>
+	
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30">
 				<form class="login100-form validate-form" method="POST">					
@@ -34,6 +51,6 @@
 				</form>
 			</div>
 		</div>
-	</div>
+
 
 {% endblock content %}
