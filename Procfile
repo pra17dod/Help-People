@@ -1,1 +1,1 @@
-web: gunicorn helppeople.wsgi
+web: gunicorn helppeople.wsgi --log-file -
