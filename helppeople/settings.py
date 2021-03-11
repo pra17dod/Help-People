@@ -21,12 +21,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 from my_secrets import secrets
-SECRET_KEY = "-iwuphi&$x7-d5!m+czkxroc9x4re2up7l8#0l$fhzc^j__6ri"
+SECRET_KEY = secrets.SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pra17dod-help-people.herokuapp.com']
 
 
 # Application definition
