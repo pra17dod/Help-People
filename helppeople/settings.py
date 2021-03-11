@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 from my_secrets import secrets
-SECRET_KEY = secrets.SECRET_KEY
+SECRET_KEY = '5a6fadd68bc96987220dee911da301bb2db03b22c4a5b405'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
