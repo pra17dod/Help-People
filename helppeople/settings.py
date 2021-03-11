@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 from my_secrets import secrets
-SECRET_KEY = secrets.SECRET_KEY
+SECRET_KEY = "-iwuphi&$x7-d5!m+czkxroc9x4re2up7l8#0l$fhzc^j__6ri"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -81,11 +81,8 @@ WSGI_APPLICATION = 'helppeople.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postdata',
-        'USER': 'postgres',
-        'PASSWORD': '9870',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
