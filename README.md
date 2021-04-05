@@ -29,12 +29,12 @@ We had faced trouble while deploying our website on Heroku and for uploading ima
 ### Snapshots:
 <div> 
  <ul>
-    <img align="left" src="images/homepage.png" width=427 height=240> 
-    <img align="right" src="images/usercreated.png" width=427 height=240> 
+    <img align="left" src="images/homepage.png" width=450> 
+    <img align="right" src="images/usercreated.png" width=450> 
   </ul>
   
   <ul>
-    <img align="left" src="images/loginpage.png" width=427 height=240> 
-    <img align="right" src="images/schema.png" width=427 height=240> 
+    <img align="left" src="images/loginpage.png" width=450> 
+    <img align="right" src="images/schema.png" width=450> 
   </ul>
 </div>
