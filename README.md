@@ -23,13 +23,13 @@ We had faced trouble while deploying our website on Heroku and for uploading ima
 
 ### Snapshots:
   <ul>
-    <img src="images/homepage.png" width=320 height=180> 
-    <img src="images/usercreated.png" width=320 height=180> 
+    <img src="images/homepage.png" width=427 height=240> 
+    <img src="images/usercreated.png" width=427 height=240> 
   </ul>
   
   <ul>
-    <img src="images/loginpage.png" width=320 height=180> 
-    <img src="images/schema.png" width=320 height=180> 
+    <img src="images/loginpage.png" width=427 height=240> 
+    <img src="images/schema.png" width=427 height=240> 
   </ul>
   
 ### Links:
