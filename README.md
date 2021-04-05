@@ -21,20 +21,20 @@ We had faced trouble while deploying our website on Heroku and for uploading ima
   - PostgreSql
   - Heroku
 
-### Snapshots:
-<div class="align-center">
-  <ul>
-    <img src="images/homepage.png" width=427 height=240> 
-    <img src="images/usercreated.png" width=427 height=240> 
-  </ul>
-  
-  <ul>
-    <img src="images/loginpage.png" width=427 height=240> 
-    <img src="images/schema.png" width=427 height=240> 
-  </ul>
-</div>
-
 ### Links:
 
   - [Project Submission](https://devfolio.co/submissions/helppeople)
   - [Working Prototype Video](https://youtu.be/RfmxibnD430)
+
+### Snapshots:
+<div> 
+ <ul>
+    <img align="left" src="images/homepage.png" width=427 height=240> 
+    <img align="right" src="images/usercreated.png" width=427 height=240> 
+  </ul>
+  
+  <ul>
+    <img align="left" src="images/loginpage.png" width=427 height=240> 
+    <img align="right" src="images/schema.png" width=427 height=240> 
+  </ul>
+</div>
